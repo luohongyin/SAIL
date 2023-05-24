@@ -5,6 +5,7 @@
 <img src="images/sail-7b-logo.png" width="280px">
 
 **Towards Robust Grounded Language Modeling**
+[[DEMO]](https://huggingface.co/spaces/luohy/SAIL-7B) | [[WEB]](https://openlsr.org/sail-7b)
 
 [Hongyin Luo](https://luohongyin.github.io/), [Yung-Sung Chuang](https://people.csail.mit.edu/yungsung/), [Yuang Gong](https://yuangongnd.github.io/), [Tianhua Zhang](#),
 
@@ -59,5 +60,9 @@ We build a live [demo](https://huggingface.co/spaces/luohy/SAIL-7B) on the Huggi
 
 ### Weights
 
-We plan to release the Delta weights of the pretrained model before June.
+We plan to release the Delta weights of the pretrained model before July.
 
+
+## Contact
+
+If there is any question, submit an issue or contact `hyluo AT mit DOT edu`.
