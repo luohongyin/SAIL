@@ -16,10 +16,10 @@ We answer the following questions:
 - How to improve language models with search engines?
     - We fine-tune a large language model (LLaMA-7B) grounded on real search engine outputs. The fine-tuned model can automatically distill the informative search results and flag distracting items. With the search-augmented fine-tuning, our model can be significantly boosted by a search engine, outperforming state-of-the-art chatbots including ChatGPT and Vicuna-13B with much fewer parameters.
 
-Bing fine-tuning LLaMA-7B model with a search-augmented corpus, our SAIL-7b model outperforms ChatGPT and Vicuna-13B on *instruction following*!
+Bing fine-tuning LLaMA-7B model with a search-augmented corpus, our SAIL-7b model outperforms ChatGPT and Vicuna-13B on **instruction following**!
 ![Scoring against GPT4 and ChatGPT](images/inst-scores.png)
 
-Our method also benefits *AI for social good*! The SAIL-7B model outperforms LLaMA-7B and Vicuna-13B on hate speec detection, stereotype recognition, and search-grounded fact checking tasks
+Our method also benefits **AI for social good**! The SAIL-7B model outperforms LLaMA-7B and Vicuna-13B on hate speec detection, stereotype recognition, and search-grounded fact checking tasks
 ![Fact checking example](images/example.png)
 
 ## Reproducing SAIL Models
@@ -42,11 +42,11 @@ The training parameters are provided in `train.sh`.
 
 ## Use the Pretrained SAIL-7b Model
 
-The pretrained SAIL-7B model is based on LLaMA, so application of the model and demo should align with LLaMA's [GPL-3.0 license](https://github.com/facebookresearch/llama/blob/main/LICENSE).
+The pretrained SAIL-7B model is based on LLaMA, so the applications of the model and demo should align with LLaMA's [GPL-3.0 license](https://github.com/facebookresearch/llama/blob/main/LICENSE).
 
 ### Demo
 
-We build a live demo on the [Huggingface Space](https://huggingface.co/spaces/luohy/SAIL-7B) with [Gradio](https://gradio.app/). The demo time outs on 1 min so it cannot process very long texts. With the demo, you could test the instruction following ability of SAIL-7B with or without search augmentation.
+We build a live [demo](https://huggingface.co/spaces/luohy/SAIL-7B) on the Huggingface Space with [Gradio](https://gradio.app/). The demo time outs on 1 min so it cannot process very long texts. With the demo, you could test the instruction following ability of SAIL-7B with or without search augmentation.
 
 ### Weights
 
