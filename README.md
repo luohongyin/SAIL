@@ -1,13 +1,14 @@
-# SAIL - Search Augmented Instruction Learning
+# Search Augmented Instruction Learning (SAIL)
 
 <div align="center">
 
 <img src="images/sail-7b-logo.png" width="280px">
 
-**Towards Grounded and Robust Language Modeling**
+**Towards Robust Grounded Language Modeling**
 
+Hongyin Luo, Yung-Sung Chuang, Yuang Gong, Tianhua Zhang,
 
-Hongyin Luo, Yung-Sung Chuang, Yuang Gong, Tianhua Zhang, Yoon Kim, Xixin Wu, Danny Fox, Helen Meng, James Glass
+Yoon Kim, Xixin Wu, Danny Fox, Helen Meng, James Glass
 
 </div>
 
