@@ -6,9 +6,9 @@
 
 **Towards Robust Grounded Language Modeling**
 
-Hongyin Luo, Yung-Sung Chuang, Yuang Gong, Tianhua Zhang,
+[Hongyin Luo](https://luohongyin.github.io/), [Yung-Sung Chuang](https://people.csail.mit.edu/yungsung/), [Yuang Gong](https://yuangongnd.github.io/), [Tianhua Zhang](#),
 
-Yoon Kim, Xixin Wu, Danny Fox, Helen Meng, James Glass
+[Yoon Kim](https://people.csail.mit.edu/yoonkim/), [Xixin Wu](https://www1.se.cuhk.edu.hk/~wuxx/), [Danny Fox](https://linguistics.mit.edu/user/fox/), [Helen Meng](https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/), [James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml)
 
 </div>
 
