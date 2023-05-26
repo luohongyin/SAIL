@@ -65,6 +65,9 @@ def format_search_res(search_res_list, bm25_list, rand_num, tok, model, gpt_str,
     elif rand_num < 0.6:
         num_res = 3
     
+    else:
+        num_res = 4
+    
     num_res = min(num_res, len(search_res_list))
     search_res_list = random.sample(search_res_list, num_res)
     ent_list = [
@@ -171,8 +174,8 @@ def merge_data():
     search_data = json.load(open('data/search_res_only.json'))
 
     for i, search_res in enumerate(search_data):
-        gpt4_data['search_res'] = search_res[0]
-        gpt4_data['bm25_res'] = search_res[1]
+        gpt4_data[i]['search_res'] = search_res[0]
+        gpt4_data[i]['bm25_res'] = search_res[1]
     
     return gpt4_data
 
