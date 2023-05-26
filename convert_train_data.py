@@ -62,11 +62,8 @@ def format_search_res(search_res_list, bm25_list, rand_num, tok, model, gpt_str,
     elif rand_num < 0.6:
         num_res = 2
     
-    elif rand_num < 0.6:
-        num_res = 3
-    
     else:
-        num_res = 4
+        num_res = 3
     
     num_res = min(num_res, len(search_res_list))
     search_res_list = random.sample(search_res_list, num_res)
