@@ -82,7 +82,7 @@ def format_search_res(search_res_list, bm25_list, rand_num, tok, model, gpt_str,
     
     elif sum(ent_pred) == len(search_res_list):
         if len(search_res_list) == 1:
-            verify_str = 'The search result is information, and I should ignore the search result and only utilize my own knowledge.'
+            verify_str = 'The search result is information, and I can utilize the search result and my knowledge.'
         else:
             verify_str = 'All search results are informative, and I can utilize all search results and my knowledge.'
     
